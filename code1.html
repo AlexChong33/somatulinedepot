@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Engineering Deconstruction & Design-Around Guide: US 11,850,410 B2</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.7; color: #212529; margin: 20px; }
+        h1, h2, h3, h4 { color: #004a99; font-weight: 600; }
+        h1 { border-bottom: 3px solid #004a99; padding-bottom: 10px; font-size: 2.5em; text-align: center; }
+        h2 { border-bottom: 1px solid #dee2e6; padding-bottom: 8px; margin-top: 40px; font-size: 1.8em; }
+        h3 { color: #003770; margin-top: 30px; font-size: 1.4em; }
+        h4 { color: #dc3545; font-style: italic; }
+        .part-header { font-size: 2.2em; color: #fff; background-color: #0d6efd; text-align: center; padding: 15px; border-radius: 8px; margin: 50px 0 30px 0; }
+        .disclaimer { background-color: #fff3cd; border-left: 5px solid #ffc107; padding: 15px; margin-bottom: 20px; font-size: 0.9em; }
+        .placeholder { 
+            border: 2px dashed #adb5bd; 
+            padding: 20px; 
+            text-align: center; 
+            margin: 25px auto; 
+            background-color: #f8f9fa;
+            width: 85%;
+        }
+        .placeholder-title { font-weight: bold; color: #495057; margin-bottom: 10px; font-size: 1.1em; }
+        .ref-text { font-style: italic; color: #6c757d; margin-top: 10px;}
+        .analysis-box { background-color: #e9ecef; border-radius: 8px; padding: 20px; margin-top: 20px; }
+        .theory-box { background-color: #e7f5ff; border: 1px solid #b3d7ff; border-radius: 8px; padding: 20px; margin-top: 20px; }
+        .key-term { font-weight: bold; color: #d63384; }
+        .claim-box { border: 2px solid #0d6efd; border-radius: 8px; margin: 30px 0; padding: 20px; background-color: #f8f9fa; }
+        .claim-text { font-family: "Courier New", Courier, monospace; background-color: #e9ecef; padding: 15px; border-radius: 5px; white-space: pre-wrap; font-size: 0.9em; }
+        .strategy-header { font-size: 1.3em; color: #198754; font-weight: bold; margin-top: 20px; }
+        .strategy-box { border: 1px solid #198754; border-left: 5px solid #198754; padding: 15px; margin-top: 10px; background-color: #f0fff4; }
+        .direction-title { font-weight: bold; color: #d63384; }
+    </style>
+</head>
+<body>
+
+    <h1>Master Engineering Deconstruction & Design-Around Guide</h1>
+    <h2>Analysis of U.S. Patent No. 11,850,410 B2 ("Daily et al.")</h2>
+
+    <div class="disclaimer">
+        <strong>Disclaimer:</strong> This guide is an in-depth technical analysis for engineering and design purposes. It is not legal advice. A qualified patent attorney must be consulted for a formal legal opinion on patentability or freedom-to-operate.
+    </div>
+
+    <div class="part-header">PART 1: Exhaustive Deconstruction of the Patented Invention</div>
+
+    <p style="text-align:center; font-size: 1.1em;">This section provides a granular, 11-figure visual analysis of the '410 patent. Our goal is to achieve an expert-level understanding of every claimed component and interaction before attempting a design-around.</p>
+
+    <h3>1.1 Component Deep Dive: The Four Pillars of the Invention</h3>
+
+    <div class="placeholder">
+        <div class="placeholder-title">CRITICAL FIGURE 1: The Static Frame - Internal Housing (IH)</div>
+        <p>This is the stationary "chassis." Its internal geometry dictates the path and limits of the moving parts.</p>
+        <p class="ref-text"><strong>Reference:</strong> Use the perspective and sectional views from <strong>FIG. 2</strong>. Label key features: Inner Tube (123), Outer Tube (122), Guiding Ribs (126) for the AF, and Directing Protrusions (125) for the MOS.</p>
+    </div>
+
+    <div class="placeholder">
+        <div class="placeholder-title">CRITICAL FIGURE 2: The Retraction Engine - Moving Sleeve (MOS)</div>
+        <p>This is the component that retracts. Its complex geometry (flanges, notches, slots) is designed to interact specifically with the IH and AF.</p>
+        <p class="ref-text"><strong>Reference:</strong> Use the perspective and sectional views from <strong>FIG. 3</strong>. Label the Flange Wall (170) which the spring pushes on, and the Wide Notch (150) which acts as the "gate" for the AF.</p>
+    </div>
+
+    <div class="placeholder">
+        <div class="placeholder-title">CRITICAL FIGURE 3: The Power Source - Biasing Element (BE)</div>
+        <p>The spring provides the retraction force. It is always loaded, seeking to expand.</p>
+        <p class="ref-text"><strong>Reference:</strong> Insert a simple diagram of a compression spring, representing part <strong>104</strong> shown in assembly views like FIG. 6.</p>
+    </div>
+
+    <div class="placeholder">
+        <div class="placeholder-title">CRITICAL FIGURE 4: THE INVENTIVE HEART - The Activation Fork (AF)</div>
+        <p>This is the "gatekeeper" component and the core of the claims. It is a separate part that moves with the plunger.</p>
+        <p class="ref-text"><strong>Reference:</strong> Use the perspective and sectional views from <strong>FIG. 4</strong>. Label the Guiding Arms (151) that do the blocking and the End Member (154) that connects to the plunger.</p>
+    </div>
+
+    <h3>1.2 The Assembled System: The Precise Pre-Use Configuration</h3>
+
+    <div class="placeholder">
+        <div class="placeholder-title">CRITICAL FIGURE 5: The Full Assembly (Storage State)</div>
+        <p>This master cross-section shows the precise alignment of all internal parts before the device is used.</p>
+        <p class="ref-text"><strong>Reference:</strong> Use the main cross-sectional view from <strong>FIG. 7 (SECTION B-B)</strong>. This is the primary "before" image for analysis.</p>
+    </div>
+
+    <div class="placeholder">
+        <div class="placeholder-title">CRITICAL FIGURE 6: The Locking Interface (Magnified)</div>
+        <p>This is the most important view for understanding the claim. It shows *how* the AF blocks the MOS.</p>
+        <p class="ref-text"><strong>Reference:</strong> Magnify the proximal end of the assembly from <strong>FIG. 7</strong>. Use arrows and labels to explicitly show the <strong class="key-term">AF Guiding Arm (151)</strong> physically obstructing the <strong class="key-term">MOS Flange Wall (170)</strong>.</p>
+    </div>
+    
+    <div class="placeholder">
+        <div class="placeholder-title">CRITICAL FIGURE 7: Plunger-to-AF Connection Interface</div>
+        <p>This view clarifies that the AF is not free-floating; it is coupled to and moves with the plunger rod.</p>
+        <p class="ref-text"><strong>Reference:</strong> Use a detailed view from <strong>FIG. 6 or 7</strong> focusing on the finger rest. Show the connection between the AF's End Member (154) and the plunger's Finger Rest (162).</p>
+    </div>
+
+    <h3>1.3 The Mechanism in Action: A Visual Step-by-Step</h3>
+
+    <div class="placeholder">
+        <div class="placeholder-title">CRITICAL FIGURE 8: Mid-Injection State</div>
+        <p>The user is pushing the plunger. This view shows the AF and plunger moving forward, but the lock is still engaged.</p>
+        <p class="ref-text"><strong>Reference:</strong> Use the cross-sectional view from <strong>FIG. 10 (SECTION R-R)</strong>. Add a large arrow indicating the user's force and the direction of movement.</p>
+    </div>
+
+    <div class="placeholder">
+        <div class="placeholder-title">CRITICAL FIGURE 9: The "Gate Opens" - The Trigger Point</div>
+        <p>The plunger is at its end-of-stroke position. The AF's guiding arm has now cleared the MOS flange, unblocking the path for retraction.</p>
+        <p class="ref-text"><strong>Reference:</strong> Use the detailed cross-section from <strong>FIG. 12 (DETAIL K)</strong>. This view clearly shows the AF (105) having moved past the MOS (103), creating the release condition.</p>
+    </div>
+
+    <div class="placeholder">
+        <div class="placeholder-title">CRITICAL FIGURE 10: Retraction Initiated</div>
+        <p>The spring is expanding, pushing the syringe and MOS backward into the housing.</p>
+        <p class="ref-text"><strong>Reference:</strong> Use a view from the retraction stage, like <strong>FIG. 13 (SECTION N-N)</strong>, showing the syringe partially retracted. An arrow should indicate the spring's expansion force.</p>
+    </div>
+
+    <div class="placeholder">
+        <div class="placeholder-title">CRITICAL FIGURE 11: Final Safe & Locked State</div>
+        <p>The needle is fully retracted, and the components are now locked in their final safe position, preventing re-exposure.</p>
+        <p class="ref-text"><strong>Reference:</strong> Use the final "discard state" view from <strong>FIG. 14 (DETAIL O)</strong>. This shows how the parts interlock to prevent both forward and backward movement after retraction.</p>
+    </div>
+
+    <div class="theory-box">
+        <p><strong class="key-term">Expert Conclusion on Part 1:</strong> This 11-figure deconstruction proves that the '410 patent's claims are inextricably linked to the <strong>structure, movement, and gating function of the separate Activation Fork (AF)</strong>. It is the single point of control. To create a non-infringing design, we must engineer a new system that achieves passive retraction without this specific component and its claimed method of action.</p>
+    </div>
+
+    <div class="part-header">PART 2: Actionable Design-Around Directives</div>
+
+    <p style="text-align:center; font-size: 1.1em;">This section provides concrete engineering pathways to design a new passive needle guard that avoids the limitations identified in Part 1.</p>
+    
+    <!-- ///////////////////////////// CLAIM 1 ANALYSIS ///////////////////////////// -->
+    <div class="claim-box">
+        <h2>Directives for Independent Claim 1</h2>
+        <p><strong>Core Limitation:</strong> The requirement for a separate, movable "activation fork (AF)" that acts as a gate.</p>
+        <div class="strategy-header">Two New Ideas to Kick Off Your Design:</div>
+
+        <div class="strategy-box">
+            <p><span class="direction-title">Idea 1: The "Integrated Actuator" (Eliminate the AF)</span></p>
+            <p><strong>Concept:</strong> Make the trigger a feature of the plunger itself, not a separate part. The lock is integrated into the sleeve.</p>
+            <p><strong>To Do:</strong>
+                <ol>
+                    <li>Design a Retraction Sleeve (RS) with flexible, cantilevered locking tabs on its inner proximal surface.</li>
+                    <li>Design a main housing with a corresponding internal groove for these tabs to lock into.</li>
+                    <li>Modify the distal end of the plunger rod to have a wider, ramped "Actuator Head."</li>
+                    <li>Model the interaction: at the end of the stroke, the Actuator Head must force the tabs to flex radially outward, releasing them from the groove.</li>
+                </ol>
+            </p>
+            <div class="placeholder">
+                <div class="placeholder-title">CONCEPT SKETCH A: "Integrated Actuator" Release</div>
+                <p>A cross-section showing the Plunger's Actuator Head forcing the Retraction Sleeve's integrated tabs to flex outward, disengaging them from the housing groove.</p>
+            </div>
+        </div>
+
+        <div class="strategy-box">
+            <p><span class="direction-title">Idea 2: The "Static Cam Release" (Make the Trigger Stationary)</span></p>
+            <p><strong>Concept:</strong> The release trigger is a non-moving feature of the housing. This breaks the claim's requirement that the trigger (AF) moves with the plunger.</p>
+            <p><strong>To Do:</strong>
+                <ol>
+                    <li>Design a Retraction Sleeve with external flexible arms that lock it to the plunger rod initially.</li>
+                    <li>Design the main housing with a stationary internal constriction or ramped cam surface near the distal end.</li>
+                    <li>Model the interaction: as the sleeve is pushed forward, its external arms are squeezed inward by the stationary housing cam.</li>
+                    <li>This inward motion must disengage the arms from their lock on the plunger rod, freeing the spring to retract the syringe (while the sleeve itself remains constrained or is also retracted).</li>
+                </ol>
+            </p>
+            <div class="placeholder">
+                <div class="placeholder-title">CONCEPT SKETCH B: "Static Cam Release"</div>
+                <p>A cross-section showing the Retraction Sleeve's external arms being squeezed inward by a stationary ramp on the housing, causing them to unlock from the plunger rod.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ///////////////////////////// CLAIM 7 ANALYSIS ///////////////////////////// -->
+    <div class="claim-box">
+        <h2>Directives for Independent Claim 7</h2>
+        <p><strong>Core Limitation:</strong> A "gripping snap" on a "locking sleeve (LOS)" that is released by "deflecting radially."</p>
+        <div class="strategy-header">Two New Ideas to Kick Off Your Design:</div>
+
+        <div class="strategy-box">
+            <p><span class="direction-title">Idea 1: The "Axial Shear Lock" (Non-Radial Release)</span></p>
+            <p><strong>Concept:</strong> Avoid any form of radial deflection. Make the release a linear, shearing action.</p>
+            <p><strong>To Do:</strong>
+                <ol>
+                    <li>Design the Retraction Sleeve with a rigid, non-flexible lug.</li>
+                    <li>Design a stationary internal ring with a thin, frangible (breakable) shelf for this lug to rest on. This shelf is the lock.</li>
+                    <li>Design the plunger to, at the end of its stroke, push a separate pin or lever forward.</li>
+                    <li>This pin must strike and shear off the frangible shelf, removing the support from under the lug and allowing the spring to retract the sleeve.</li>
+                </ol>
+            </p>
+            <div class="placeholder">
+                <div class="placeholder-title">CONCEPT SKETCH C: "Axial Shear Lock"</div>
+                <p>A diagram showing a lug on the Retraction Sleeve resting on a small, breakable shelf. A pin, activated by the plunger, is shown about to shear off the shelf.</p>
+            </div>
+        </div>
+
+        <div class="strategy-box">
+            <p><span class="direction-title">Idea 2: The "Fluidic Pressure Release" (Non-Mechanical Release)</span></p>
+            <p><strong>Concept:</strong> A truly novel approach. Use the fluid pressure itself at the end of the stroke to trigger the release.</p>
+            <p><strong>To Do:</strong>
+                <ol>
+                    <li>Design a small, sealed chamber within the housing containing a piston that is holding the retraction spring in check.</li>
+                    <li>Create a fluidic channel from the distal end of the syringe barrel to this chamber.</li>
+                    <li>At the very end of the plunger's travel, it uncovers the entrance to this channel.</li>
+                    <li>The final spike in fluid pressure (hydraulic hammer effect) is channeled to the piston, pushing it out of the way and releasing the main retraction spring.</li>
+                </ol>
+            </p>
+            <p><strong>Result:</strong> This is a highly innovative, non-mechanical release. It has no "gripping snap" and no "radial deflection." It's an entirely different field of art.</p>
+            <div class="placeholder">
+                <div class="placeholder-title">CONCEPT SKETCH D: "Fluidic Pressure Release"</div>
+                <p>A schematic showing a fluid channel leading from the syringe tip to a small piston. An arrow shows fluid pressure pushing the piston to release the retraction spring.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ///////////////////////////// CLAIM 12 ANALYSIS ///////////////////////////// -->
+    <div class="claim-box">
+        <h2>Directives for Independent Claim 12 (Method Claim)</h2>
+        <p><strong>Core Limitation:</strong> The *method* of "advancing the... AF axially... until the... AF allows... movement."</p>
+        <div class="strategy-header">Two New Methods to Kick Off Your Design:</div>
+        <p>Any device designed to avoid the apparatus claims (1 and 7) will inherently use a different method. The key is to be able to articulate that different method.</p>
+        
+        <div class="strategy-box">
+            <p><span class="direction-title">Idea 1: The "Direct Deflection Method"</span></p>
+            <p><strong>Concept:</strong> This is the method used by the "Integrated Actuator" hardware.</p>
+            <p><strong>To Do:</strong>
+                <ol>
+                    <li>Articulate the steps: 1. Locking a sleeve to a housing via direct engagement. 2. Advancing a plunger. 3. Causing a direct contact between a feature on the plunger and a feature on the sleeve. 4. Forcing a radial deflection of the sleeve's feature to cause disengagement.</li>
+                    <li>This method avoids the step of "advancing an AF."</li>
+                </ol>
+            </p>
+        </div>
+
+        <div class="strategy-box">
+            <p><span class="direction-title">Idea 2: The "Twist and Release Method"</span></p>
+            <p><strong>Concept:</strong> A method based on a rotational release, which is entirely different from the linear gating action of the patent.</p>
+            <p><strong>To Do:</strong>
+                <ol>
+                    <li>Articulate the steps: 1. Locking a sleeve in a bayonet mount. 2. Advancing a plunger linearly. 3. Converting the plunger's linear motion into rotational motion of the sleeve via a cam/helical slot. 4. Disengaging the sleeve from the bayonet mount via this rotation to permit retraction.</li>
+                    <li>This method avoids any step where a component "allows movement" by simply moving out of the way linearly. The unlock is an active, rotational disengagement.</li>
+                </ol>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>

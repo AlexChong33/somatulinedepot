@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patent Study Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        h1 {
+            text-align: center;
+            color: #1a237e; /* Dark blue for main title */
+        }
+        h2 {
+            color: #283593; /* Slightly lighter blue for section titles */
+        }
+        .section h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        .figures-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 15px;
+        }
+        .figure-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .figure-item h4 {
+            margin-top: 0;
+            color: #34495e;
+        }
+        .figure-placeholder {
+            width: 100%;
+            height: 200px; /* Adjust as needed */
+            background-color: #eee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px dashed #ccc;
+            margin-top: 10px;
+            color: #777;
+            font-style: italic;
+        }
+        .figure-image {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            margin-top: 10px;
+            border-radius: 4px;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        strong {
+            color: #555;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .figure-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .figure-container img {
+            max-width: 80%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+        }
+        .figure-caption {
+            font-style: italic;
+            color: #666;
+            margin-top: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #e8eaf6; /* Light blue for table headers */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Patent Study Report</h1>
+
+        <div class="section" id="metadata">
+            <h2>Phase 1: Foundation & Overview</h2>
+            <h3>Key Metadata</h3>
+            <table>
+                <tr>
+                    <th>Field</th>
+                    <th>Information</th>
+                </tr>
+                <tr>
+                    <td><strong>Patent Number</strong></td>
+                    <td id="patent-number">US 11,850,410 B2</td>
+                </tr>
+                <tr>
+                    <td><strong>Title</strong></td>
+                    <td id="patent-title">AUTOMATICALLY RETRACTING SAFETY NEEDLE ASSEMBLY</td>
+                </tr>
+                <tr>
+                    <td><strong>Filing Date</strong></td>
+                    <td id="filing-date">Mar. 2, 2021</td>
+                </tr>
+                <tr>
+                    <td><strong>Issue Date</strong></td>
+                    <td id="issue-date">Dec. 26, 2023</td>
+                </tr>
+                <tr>
+                    <td><strong>Inventors</strong></td>
+                    <td id="inventors">David Daily, Herzliya (IL); Lior Raday, Kibbutz Bror-Hail (IL); Gad Lewkonya, Neve Mivtach (IL); Ehoud Carmel, Yehud-Monosson (IL); Elyasaf Laybovitch, Nehalim (IL); Dmitri Sarkorov, Rosh HaAyin (IL); Nir Benarous, Holon (IL); Guy Keenan, Tel Aviv (IL)</td>
+                </tr>
+                <tr>
+                    <td><strong>Assignee</strong></td>
+                    <td id="assignee">DALI MEDICAL DEVICES LTD Yavne (IL)</td>
+                </tr>
+                <tr>
+                    <td><strong>Examiner</strong></td>
+                    <td id="examiner">Laura A Bouchelle</td>
+                </tr>
+                <tr>
+                    <td><strong>Art Unit</strong></td>
+                    <td id="art-unit">Not explicitly stated, but CPC codes suggest medical device area (A61M 5/326)</td>
+                </tr>
+                <tr>
+                    <td><strong>Related Applications</strong></td>
+                    <td id="related-applications">Provisional application No. 63/093,309, filed on Oct 19, 2020. Foreign Application Priority Data: May 3, 2020 (IL) .. 273097</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section" id="abstract">
+            <h3>Abstract</h3>
+            <p id="abstract-content">An automatically retracting safety needle assembly configured to receive a syringe. The assembly has distal and proximal ends, and comprises: a housing, with internal housing (IH), and a base wall. A moving sleeve (MOS): at least partially within the IH; having a flange wall axially movable. A biasing element (BE), within the IH, biasing the MOS proximally. A syringe, receiving a plunger rod; movable axially within the IH, and coupled to the MOS. An activation fork (AF), partially disposed within the IH. AF has a guiding arm coupled with the IH and the MOS; preventing motion of the MOS during non-deployment state. An automatic retraction mechanism, retracting the syringe after injection. Deployment: advance plunger rod and the AF axially (distally), until AF guiding arm allows proximal movement of the MOS, retracting the syringe. Distal advancement of plunger rod is constant without an abrupt increase in resistive force; allowing safe disposal.</p>
+        </div>
+
+        <div class="section" id="background">
+            <h3>Background of the Invention</h3>
+            <p id="background-problem">The invention addresses the need for safe disposal of hypodermic needles after use to prevent needle reuse, contamination, and potential injury. Specifically, it aims to overcome issues with existing safety needle assemblies where users might not fully depress the plunger due to resistance from the retraction mechanism, leading to incomplete injection and failure of the safety retraction feature.</p>
+            <p id="background-prior-art-limitations">Limitations of prior art include: manual or actively implemented retraction mechanisms requiring specific user actions, which can be missed. Even with automated retractions, some designs present an abrupt increase in resistive force when activating the retraction mechanism. This can lead to users incorrectly perceiving the injection as complete, not fully depressing the plunger, resulting in incomplete dosage and failure of the needle to retract, thus posing a risk of needlestick injury and contamination. The invention aims for a constant distal advancement force for the plunger rod without an abrupt increase in resistive force to activate retraction.</p>
+        </div>
+
+        <div class="section" id="summary">
+            <h3>Summary of the Invention</h3>
+            <p id="summary-objectives">The present invention provides an automatically retracting safety needle assembly. The objective is to ensure safe disposal of the needle after injection by automatically retracting it into a housing. A key objective is to achieve this retraction with a deployment mechanism where the distal advancement of the plunger rod is substantially constant, without an abrupt increase in resistive force that the user must overcome to activate the retraction mechanism. This ensures full delivery of the injectant and reliable activation of the safety feature.</p>
+            <p id="summary-advantages">The main advantage is enhanced safety by ensuring the needle is automatically and reliably retracted after full injection, minimizing risk of needlestick injuries and contamination. The design ensures that the user does not encounter an abrupt increase in resistive force during plunger advancement, which prevents premature stoppage of injection and ensures the retraction mechanism is properly triggered. This leads to safer disposal. The assembly can also include an indicator for injection completion and a removable needle guard for safety before use.</p>
+        </div>
+
+        <div class="section" id="claims-initial-pass">
+            <h3>Claims (Initial Pass)</h3>
+            <p><strong>Independent Claims (e.g., Claim 1):</strong> <span id="independent-claims-overview">Claim 1, the primary independent claim, describes an automatically retracting safety needle assembly comprising a housing, a moving sleeve (MOS), a biasing element (BE), a syringe (with chamber, plunger rod, plunger stopper, and needle), an activation fork (AF) with a guiding arm, and a retraction mechanism. The key operational aspect is the distal advancement of the plunger rod and AF, leading to the AF's guiding arm allowing proximal movement of the MOS for syringe retraction, all achieved with a substantially constant advancement force.</span></p>
+            <p><strong>Structure of Claims:</strong> <span id="claims-structure">The claims are primarily apparatus claims, defining the physical components and their relationships within the safety needle assembly. There are 20 claims in total.</span></p>
+        </div>
+
+        <div class="section" id="claims-deep-dive">
+            <h2>Phase 2: Deep Dive into the Core - Claims & Detailed Description</h2>
+            <h3>Dissect the Claims Meticulously</h3>
+            <h4>Independent Claims</h4>
+            <div id="independent-claims-dissection">
+                <p><strong>Claim 1: An automatically retracting safety needle assembly, the assembly having a distal end and a proximal end, the assembly comprising:</strong></p>
+                <ul>
+                    <li><strong>a housing:</strong> including an internal housing (IH), which includes an inner tube concentric with an outer tube, and a base wall situated at the distal end of the IH.</li>
+                    <li><strong>a moving sleeve (MOS):</strong> disposed within the IH; the MOS including a flange wall, at the proximal end thereof; the MOS being axially movable.</li>
+                    <li><strong>a biasing element (BE):</strong> disposed within the IH; the BE being supported at its distal end by the base wall of the IH and being supported at its proximal end by the flange wall of the MOS; the BE biasing the MOS to the proximal direction.</li>
+                    <li><strong>a syringe:</strong> disposed in and movable axially within the inner tube of the IH, and coupled to the MOS; the syringe including: a syringe chamber, containing an injectant substance; a plunger rod, slidably advanceable within the syringe chamber; a plunger stopper, disposed on the distal end of the plunger rod; and a needle, extending from a distal end of the syringe.</li>
+                    <li><strong>an activation fork (AF):</strong> disposed within the IH; the AF including an end member at a proximal end thereof, and at least one guiding arm extending distally from the end member and aligned axially; the guiding arm being coupled with the IH and the MOS so as to prevent proximal motion of the MOS when the assembly is in a non-deployment state.</li>
+                    <li><strong>a retraction mechanism:</strong> configured to automatically retract the needle upon completion of injection.</li>
+                    <li><strong>Deployment Configuration:</strong> The assembly is configured to be deployed for injection by inserting the needle into an injection site, and advancing the plunger rod and the AF axially in the distal direction with respect to the IH, urging the plunger stopper to advance distally within the syringe chamber to expel the injectant substance therefrom through the needle, the plunger rod advancing until the guiding arm of the AF allows movement of the MOS, where the distal advancement of the plunger rod is substantially constant without an abrupt increase in resistive force to overcome for activating the retraction mechanism, allowing for safe disposal of the needle assembly with the needle retracted within the housing.</li>
+                </ul>
+            </div>
+            <h4>Dependent Claims</h4>
+            <div id="dependent-claims-dissection">
+                <ul>
+                    <li><strong>Claim 2:</strong> Specifies that the housing further comprises an external housing, to which the internal housing is fixedly coupled.</li>
+                    <li><strong>Claim 3:</strong> Details the movable sleeve (MOS) as a rotating sleeve (ROS) with specific components: extending arm(s), a guiding slot (with helical, straight, and extension portions), notched flange(s), and holding snap(s). It also describes the coupling of the activation fork (AF) with the IH and ROS.</li>
+                    <li><strong>Claim 4:</strong> States that the syringe is coupled to the ROS via the holding snap, preventing relative axial motion in the non-deployment state.</li>
+                    <li><strong>Claim 5:</strong> Describes the ROS flange wall having arc-shaped opening(s) and the IH having orienting protrusion(s) to prevent syringe rotation.</li>
+                    <li><strong>Claim 6:</strong> Explains the mechanism where plunger advancement allows ROS rotation and proximal movement due to the biasing element (BE), guided by the directing protrusion and guiding slot.</li>
+                    <li><strong>Claim 7:</strong> Details the MOS as a locking sleeve (LOS) with specific components: extending arm(s), a gripping snap, and holding snap(s). It also describes the AF having an activation opening and its positioning to prevent LOS movement in the non-deployment state.</li>
+                    <li><strong>Claim 8:</strong> Adds further details to the LOS of Claim 7: a locking snap and LOS stopping protrusion(s). It also specifies a locking opening on the AF and IH stopping protrusion(s).</li>
+                    <li><strong>Claim 9:</strong> Describes the activation mechanism for the LOS: plunger advancement aligns the AF activation opening with the LOS gripping snap, allowing deflection and proximal movement of the LOS and syringe.</li>
+                    <li><strong>Claim 10:</strong> Adds to the LOS of Claim 7: a first locking window, a second locking window, and LOS stopping protrusion(s). It also details an IH locking snap with a locking tooth, positioned within the first locking window in the non-deployment state.</li>
+                    <li><strong>Claim 11:</strong> Explains the locking mechanism after retraction for the LOS: engagement of the LOS stopping protrusion with the IH prevents further proximal movement, and the IH locking tooth within the second locking window prevents distal movement.</li>
+                    <li><strong>Claim 12:</strong> This is an independent method claim, mirroring the apparatus of Claim 1, outlining the steps for retracting the syringe.</li>
+                    <li><strong>Claim 13:</strong> Dependent method claim (on Claim 12), specifying the MOS as a ROS with features as in Claim 3.</li>
+                    <li><strong>Claim 14:</strong> Dependent method claim (on Claim 13), detailing the release of pressing force allowing BE to move the ROS proximally and rotate it.</li>
+                    <li><strong>Claim 15:</strong> Dependent method claim (on Claim 12), specifying the MOS as an LOS with features as in Claim 7.</li>
+                    <li><strong>Claim 16:</strong> Dependent method claim (on Claim 15), adding LOS features (locking snap, stopping protrusion) and AF/IH features (locking opening, stopping protrusion) as in Claim 8.</li>
+                    <li><strong>Claim 17:</strong> Dependent method claim (on Claim 15), detailing distal advancement aligning AF activation opening with LOS gripping snap for retraction, as in Claim 9.</li>
+                    <li><strong>Claim 18:</strong> Dependent method claim (on Claim 15), detailing distal advancement aligning AF locking opening with LOS locking snap for retraction and locking.</li>
+                    <li><strong>Claim 19:</strong> Dependent method claim (on Claim 15), adding LOS features (first/second locking windows, stopping protrusion) and IH locking snap as in Claim 10.</li>
+                    <li><strong>Claim 20:</strong> Dependent method claim (on Claim 19), detailing proximal retraction and locking mechanism as in Claim 11.</li>
+                </ul>
+            </div>
+            <h4>Key Terms in Claims</h4>
+            <ul id="key-terms-claims">
+                <li><strong>Internal Housing (IH):</strong> A core structural component within the main housing.</li>
+                <li><strong>Moving Sleeve (MOS):</strong> A general term for a sleeve that moves axially, further specified as either ROS or LOS.</li>
+                <li><strong>Flange Wall:</strong> A specific part of the MOS, interacting with the biasing element.</li>
+                <li><strong>Biasing Element (BE):</strong> Typically a spring, providing the force for retraction.</li>
+                <li><strong>Activation Fork (AF):</strong> A key component that interacts with the MOS and IH to control the deployment and retraction sequence.</li>
+                <li><strong>Guiding Arm (of AF):</strong> The part of the AF that directly engages with the MOS and IH.</li>
+                <li><strong>Non-deployment State:</strong> The state of the assembly before the injection and retraction process is initiated.</li>
+                <li><strong>Retraction Mechanism:</strong> The overall system of components responsible for retracting the needle.</li>
+                <li><strong>"Substantially constant without an abrupt increase in resistive force":</strong> A key characteristic of the plunger operation, indicating a user-friendly design.</li>
+                <li><strong>Rotating Sleeve (ROS):</strong> A specific type of MOS that rotates as part of its activation.</li>
+                <li><strong>Guiding Slot (of ROS):</strong> Features (helical, straight, extension portions) on the ROS that guide its movement.</li>
+                <li><strong>Notched Flange (of ROS):</strong> A feature on the ROS interacting with the AF.</li>
+                <li><strong>Direction Protrusion (of IH):</strong> A feature of the IH that interacts with the ROS's guiding slot.</li>
+                <li><strong>Locking Sleeve (LOS):</strong> A specific type of MOS that uses locking features for its operation.</li>
+                <li><strong>Gripping Snap (of LOS):</strong> A feature on the LOS that interacts with the AF's activation opening.</li>
+                <li><strong>Activation Opening (on AF):</strong> An opening on the AF's guiding arm that allows the LOS gripping snap to deflect.</li>
+                <li><strong>Locking Snap (of LOS/IH):</strong> Features on the LOS and IH that engage to lock the sleeve after retraction.</li>
+                <li><strong>Stopping Protrusion (LOS/IH):</strong> Features that limit the axial movement of the LOS.</li>
+                <li><strong>Locking Window (First/Second on LOS):</strong> Openings on the LOS that interact with the IH locking snap.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="claims-to-description-mapping">
+            <h3>Map Claims to Detailed Description</h3>
+            <p id="claims-mapping-details">The Detailed Description section provides comprehensive explanations for each element recited in the claims. It elaborates on the structure, function, and interaction of components like the housing (internal and external), moving sleeve (MOS - specified as Rotating Sleeve (ROS) or Locking Sleeve (LOS)), biasing element (BE), syringe, and activation fork (AF). The description clarifies how these parts work together to achieve the automatic retraction of the needle post-injection, emphasizing the constant force required for plunger advancement. Specific embodiments, such as those involving the ROS (Claims 3-6, 13-14) and LOS (Claims 7-11, 15-20), are detailed, explaining their unique mechanisms for preventing premature retraction and ensuring safe disposal. The description consistently refers to the figures to illustrate these components and their operations.</p>
+        </div>
+
+        <div class="section" id="figures-analysis">
+            <h2>Phase 3: Understanding the Device - Figures & Detailed Description</h2>
+            <h3>Systematically Analyze Figures & Assembly Drawings</h3>
+            <p>Key Figures identified: <span id="key-figures-list">
+                FIG. 1 (External Housing), 
+                FIG. 2 (Internal Housing), 
+                FIG. 3 (Rotating Sleeve - ROS), 
+                FIG. 4 (Activation Fork - AF for ROS embodiment), 
+                FIG. 5 (Syringe for ROS embodiment), 
+                FIGS. 6-8 (Assembly in Storage State - ROS embodiment), 
+                FIG. 9 (Needle Insertion - ROS embodiment), 
+                FIG. 10 (Injection Stage - ROS embodiment), 
+                FIG. 11 (End of Injection - ROS embodiment), 
+                FIGS. 12-13 (Syringe Retraction - ROS embodiment), 
+                FIG. 14 (Discard State - ROS embodiment), 
+                FIG. 15 (External Housing - LOS embodiment), 
+                FIG. 16 (Internal Housing - LOS embodiment), 
+                FIG. 17 (Locking Sleeve - LOS), 
+                FIG. 18 (Activation Fork - AF for LOS embodiment), 
+                FIG. 19 (Syringe for LOS embodiment), 
+                FIGS. 20-21 (Assembly in Storage State - LOS embodiment), 
+                FIG. 22 (Needle Insertion - LOS embodiment), 
+                FIG. 23 (Injection Stage - LOS embodiment), 
+                FIG. 24 (End of Injection - LOS embodiment), 
+                FIG. 25 (Syringe Retraction - LOS embodiment), 
+                FIGS. 26-27 (Discard State - LOS embodiment), 
+                FIGS. 28-30 (Force graphs comparing prior art with the invention), 
+                FIGS. 31-43 (Illustrate a third embodiment, likely another variation of the LOS mechanism, showing various components and operational stages).
+            </span></p>
+            <div id="figures-detailed-analysis">
+                <!-- Figure images and descriptions will be added here by the user later -->
+            </div>
+            <p><strong>Relationships between parts:</strong> <span id="parts-relationships"></span></p>
+            <p><strong>Novelty in Figures:</strong> <span id="novelty-in-figures"></span></p>
+            <p><strong>Material & Construction Notes:</strong> <span id="material-construction"></span></p>
+        </div>
+
+        <div class="section" id="operation-method">
+            <h3>Analyze Operation/Method</h3>
+            <p id="operation-method-description">The patent describes a method for automatically retracting a syringe (Claim 12). The general operational sequence involves:
+                <ol>
+                    <li><strong>Providing the Assembly:</strong> The assembly is in a non-deployment state with the MOS (ROS or LOS) prevented from proximal motion by the AF. The BE is compressed between the IH base wall and the MOS flange wall, ready to bias the MOS proximally.</li>
+                    <li><strong>Inserting Needle:</strong> The needle, attached to the syringe, is inserted into the injection site.</li>
+                    <li><strong>Advancing Plunger Rod:</strong> The user advances the plunger rod. This action also advances the AF axially in the distal direction relative to the IH. Critically, this advancement occurs with a substantially constant force, without an abrupt increase in resistive force needed to trigger retraction (a key advantage over prior art).</li>
+                    <li><strong>Activating Retraction:</strong> As the plunger rod (and thus the AF) reaches its distal-most position (end of injection), the AF's guiding arm(s) align in such a way (e.g., an activation opening aligns with a gripping snap on the MOS, or a directing protrusion moves within a guiding slot) that it no longer prevents the proximal movement of the MOS.</li>
+                    <li><strong>Automatic Retraction:</strong> The biasing force of the BE then automatically moves the MOS (and the coupled syringe) proximally, retracting the needle into the housing.</li>
+                    <li><strong>Securing in Retracted State:</strong> Mechanisms (specific to ROS or LOS embodiments) ensure the syringe remains retracted, preventing re-exposure of the needle and allowing for safe disposal.
+                        <ul>
+                            <li><strong>For ROS (Claim 13-14):</strong> Release of pressing force allows the BE to move the ROS proximally. A directing protrusion in the IH guides the ROS through a helical slot, causing rotation, and then into a straight slot for axial retraction.</li>
+                            <li><strong>For LOS (Claim 15-20):</strong> Advancement of the AF aligns an activation opening with a gripping snap on the LOS, allowing the snap to deflect and the LOS to move proximally. Further mechanisms, like locking snaps and windows, secure the LOS in the retracted position, preventing both further proximal and distal movement. For example, in one LOS embodiment (Claim 17), the gripping snap passes the proximal end of the IH and returns to a non-deflected state. In another (Claim 18), a locking snap on the LOS deflects through a locking opening on the AF and later engages an IH stopping protrusion. A further LOS embodiment (Claims 19-20) details interaction between an IH locking snap and first/second locking windows on the LOS to secure it post-retraction.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Safe Disposal:</strong> The assembly is now safe for disposal.</li>
+                </ol>
+            </p>
+        </div>
+
+        <div class="section" id="novelty-identification">
+            <h2>Phase 4: Identifying Novelty & Key Features</h2>
+            <h3>Compare Claims & Description to Background</h3>
+            <p><strong>Problems Solved:</strong> <span id="problems-solved">
+                The invention aims to solve problems related to the safe disposal of hypodermic needles after use, specifically preventing needle reuse, contamination, and needlestick injuries. It addresses issues with both manual/active retraction mechanisms (requiring specific user action) and some automated mechanisms where user resistance can lead to incomplete injection or failure to activate retraction.
+            </span></p>
+            <p><strong>Prior Art Limitations Overcome:</strong> <span id="prior-art-overcome">
+                The patent explicitly addresses limitations of prior art where users might encounter an abrupt increase in mechanical resistance when depressing the syringe plunger to activate a retraction mechanism. This resistance could lead to users incorrectly perceiving the injection as complete, resulting in incomplete dosage and failure of the needle to retract. The current invention is designed so that the distal advancement of the plunger rod is substantially constant, without an abrupt increase in resistive force to overcome for activating the retraction mechanism. This ensures the injection is fully executed before automatic retraction occurs, enhancing safety and efficacy.
+            </span></p>
+            <h3>Synthesize "New Features"</h3>
+            <ul id="new-features-list">
+                <li><strong>Constant Force Activation:</strong> A key novel feature is the retraction mechanism that activates without an abrupt increase in resistive force during plunger advancement. This ensures full dose delivery before retraction.</li>
+                <li><strong>Automatic Retraction Mechanism:</strong> The core of the invention is a fully automatic (passive) or partially automated spring-based retraction mechanism that retracts the needle into the housing upon completion of injection.</li>
+                <li><strong>Activation Fork (AF):</strong> The AF is a critical component that controls the timing of the retraction, preventing premature activation and ensuring it occurs only after full plunger depression. Its interaction with the Moving Sleeve (MOS) is central to the invention.</li>
+                <li><strong>Moving Sleeve (MOS) - ROS/LOS Embodiments:</strong> The patent details specific embodiments of the MOS:
+                    <ul>
+                        <li><strong>Rotating Sleeve (ROS):</strong> Features a guiding slot with helical and straight portions, notched flanges, and holding snaps. Its rotation and subsequent axial movement, guided by IH protrusions, facilitate retraction.</li>
+                        <li><strong>Locking Sleeve (LOS):</strong> Employs gripping snaps, locking snaps, and locking windows that interact with features on the AF and IH to control and secure retraction. Different LOS embodiments offer varied locking mechanisms.</li>
+                    </ul>
+                </li>
+                <li><strong>Prevention of Premature Retraction:</strong> Both ROS and LOS designs incorporate features (e.g., AF guiding arm positioning, snap/slot interactions) to ensure the MOS is held securely until the precise moment of activation at the end of injection.</li>
+                <li><strong>Secure Post-Retraction Locking:</strong> Mechanisms are described (e.g., locking snaps engaging windows or protrusions) to ensure that once the needle is retracted, it is securely locked within the housing, preventing accidental re-exposure and further distal/proximal movement.</li>
+                <li><strong>Indicator (Optional):</strong> The assembly may include an indicator for completion of injection, though the primary novelty lies in the constant force retraction.</li>
+                <li><strong>Removable Needle Guard (Optional):</strong> For pre-use safety.</li>
+            </ul>
+        </div>
+
+        <div class="section" id="patent-scope">
+            <h2>Phase 5: Understanding the Patent Statement & Scope</h2>
+            <h3>Re-read Claims with Context</h3>
+            <p id="claims-reread-context">
+                Having analyzed the detailed description, figures, and operational method, the claims can be understood as protecting an automatically retracting safety needle assembly designed for enhanced user safety and reliable operation. The core inventive concept revolves around a retraction mechanism (particularly involving the AF and MOS interaction) that activates upon full injection completion without requiring the user to overcome a significant, abrupt increase in force. This addresses a key prior art limitation. The independent claims (1 and 12) broadly define the essential components and method, while dependent claims add specific structural or functional refinements to the MOS (ROS and LOS embodiments), their locking mechanisms, and interactions with the IH and AF. The language "comprising" in the claims suggests an open-ended interpretation, meaning assemblies with additional, unlisted elements could still infringe if all claimed elements are present.
+            </p>
+            <h3>Review Prosecution History (If Available - PAIR)</h3>
+            <p id="prosecution-history-notes">(To be filled if PAIR information is accessed - This would provide insights into claim amendments, examiner objections, and arguments made, further refining the understanding of claim scope and enforceability.)</p>
+            <h3>Identify Potential Gaps/Limitations</h3>
+            <p id="gaps-limitations">
+                Potential gaps or limitations could include:
+                <ul>
+                    <li><strong>Material Specificity:</strong> The claims are generally not limited to specific materials for the components, potentially allowing design-arounds using different materials if they achieve the same functional outcome without infringing on specific material-dependent claims (if any were present, though not prominent here).</li>
+                    <li><strong>Manufacturing Methods:</strong> The claims focus on the apparatus and its method of use, not typically on the methods of manufacturing the components themselves.</li>
+                    <li><strong>Specific Drug Formulations:</strong> The patent claims the device, not the drug it delivers. Compatibility with highly viscous drugs or specific drug container requirements not explicitly covered could be a limitation or area for further innovation.</li>
+                    <li><strong>Alternative Activation Mechanisms:</strong> While the AF and MOS interaction is key, significantly different mechanical or electro-mechanical approaches to achieve constant-force automatic retraction might fall outside the claim scope.</li>
+                    <li><strong>User Interface/Ergonomics:</strong> While functionality is covered, specific ergonomic designs or user interface elements beyond the core mechanism might not be explicitly protected unless detailed in dependent claims.</li>
+                </ul>
+            </p>
+            <p><strong>Focus of Claims (Mechanical/Formulation):</strong> <span id="claims-focus">
+                The claims are overwhelmingly focused on the <strong>mechanical aspects</strong> of the safety needle assembly (apparatus claims) and its method of operation (method claims). There are no claims directed towards drug formulations.
+            </span></p>
+            <p><strong>Desirable Features in Dependent Claims:</strong> <span id="dependent-claims-features">
+                Many dependent claims cover desirable features that enhance the core invention or provide specific embodiments:
+                <ul>
+                    <li><strong>ROS Specifics (Claims 3-6, 13-14):</strong> Details of the rotating sleeve's guiding slots, notched flanges, and interaction with IH protrusions offer a specific, potentially robust retraction mechanism.</li>
+                    <li><strong>LOS Specifics (Claims 7-11, 15-20):</strong> Various LOS embodiments with different gripping/locking snap configurations and window interactions provide alternative, secure locking mechanisms post-retraction. These offer design flexibility and potentially different manufacturing or performance characteristics.</li>
+                    <li><strong>Specific Locking Features:</strong> Claims detailing how the MOS (ROS or LOS) is locked after retraction (e.g., Claim 6 for ROS, Claims 9, 11, 18, 20 for LOS variations) are crucial for ensuring safety and preventing needle re-exposure.</li>
+                    <li><strong>Indicator (Claim not explicitly numbered but mentioned in summary):</strong> While not a primary focus of the claims themselves, the potential inclusion of an indicator is a desirable usability feature.</li>
+                    <li><strong>Removable Needle Guard (Claim not explicitly numbered but mentioned in summary):</strong> Adds pre-use safety.</li>
+                </ul>
+            </span>
+
+            <h3>Key Figures for Engineering Review</h3>
+            <p>The following figures are identified as critical for understanding the invention's mechanics, facilitating engineering review for new device development, and identifying areas to design around the current patent. Images for these figures will be placed alongside their descriptions. (Note: Figure images to be added from the 'photo' folder).</p>
+            <div id="key-figures-engineering" class="figures-grid">
+                <!-- Figure 1 -->
+                <div class="figure-item">
+                    <h4>FIG. 1: Perspective View of Assembly</h4>
+                    <p>Provides an overall understanding of the safety needle assembly.</p>
+                    <img src="photo/fig1.png" alt="FIG. 1: Perspective View of Assembly" class="figure-image" id="fig1-image">
+                </div>
+                <!-- Figure 2 -->
+                <div class="figure-item">
+                    <h4>FIG. 2: Exploded View of Assembly</h4>
+                    <p>Shows all components and their relationships, crucial for understanding assembly and individual part functions.</p>
+                    <img src="photo/fig2.png" alt="FIG. 2: Exploded View of Assembly" class="figure-image" id="fig2-image">
+                </div>
+                <!-- Figure 5 (ROS) -->
+                <div class="figure-item">
+                    <h4>FIG. 5: ROS Embodiment - Pre-activation</h4>
+                    <p>Illustrates the Rotating Sleeve (ROS) mechanism before the injection is completed.</p>
+                    <img src="photo/fig5.png" alt="FIG. 5: ROS Embodiment - Pre-activation" class="figure-image" id="fig5-image">
+                </div>
+                <!-- Figure 8 (ROS) -->
+                <div class="figure-item">
+                    <h4>FIG. 8: ROS Embodiment - Post-retraction</h4>
+                    <p>Shows the ROS mechanism after the needle has been retracted and locked.</p>
+                    <img src="photo/fig8.png" alt="FIG. 8: ROS Embodiment - Post-retraction" class="figure-image" id="fig8-image">
+                </div>
+                <!-- Figure 18 (LOS) -->
+                <div class="figure-item">
+                    <h4>FIG. 18: LOS Embodiment (Type 1) - Pre-activation</h4>
+                    <p>Details a Locking Sleeve (LOS) embodiment prior to activation.</p>
+                    <img src="photo/fig18.png" alt="FIG. 18: LOS Embodiment (Type 1) - Pre-activation" class="figure-image" id="fig18-image">
+                </div>
+                <!-- Figure 21 (LOS) -->
+                <div class="figure-item">
+                    <h4>FIG. 21: LOS Embodiment (Type 1) - Post-retraction</h4>
+                    <p>Shows the LOS (Type 1) after needle retraction and locking.</p>
+                    <img src="photo/fig21.png" alt="FIG. 21: LOS Embodiment (Type 1) - Post-retraction" class="figure-image" id="fig21-image">
+                </div>
+                <!-- Figure 25 (LOS - Alt) -->
+                <div class="figure-item">
+                    <h4>FIG. 25: LOS Embodiment (Type 2) - Pre-activation</h4>
+                    <p>Illustrates an alternative LOS design before activation.</p>
+                    <img src="photo/fig25.png" alt="FIG. 25: LOS Embodiment (Type 2) - Pre-activation" class="figure-image" id="fig25-image">
+                </div>
+                <!-- Figure 28 (LOS - Alt) -->
+                <div class="figure-item">
+                    <h4>FIG. 28: LOS Embodiment (Type 2) - Post-retraction</h4>
+                    <p>Shows the alternative LOS design after retraction and locking.</p>
+                    <img src="photo/fig28.png" alt="FIG. 28: LOS Embodiment (Type 2) - Post-retraction" class="figure-image" id="fig28-image">
+                </div>
+                <!-- Figure 35 - Activation Fork detail -->
+                <div class="figure-item">
+                    <h4>FIG. 35: Activation Fork (AF) Details</h4>
+                    <p>Provides a detailed view of the Activation Fork, a critical component for controlling retraction.</p>
+                    <div class="figure-placeholder" id="fig35-placeholder">[Image for FIG. 35 not found in photo folder]</div>
+                    <!-- Note: fig35.png was not found in the photo directory -->
+                </div>
+                <!-- Figure 4 (Cross-section) -->
+                <div class="figure-item">
+                    <h4>FIG. 4: Cross-sectional View</h4>
+                    <p>Offers insight into the internal arrangement and interaction of components during operation.</p>
+                    <img src="photo/fig4.png" alt="FIG. 4: Cross-sectional View" class="figure-image" id="fig4-image">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

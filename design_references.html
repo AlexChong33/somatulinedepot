@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drug Delivery Device Design References</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            color: #333;
+        }
+        .component-section {
+            margin-bottom: 40px;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .image-placeholder {
+            background-color: #f5f5f5;
+            border: 2px dashed #ccc;
+            height: auto; /* Allow height to adjust to content */
+            display: flex;
+            flex-wrap: wrap; /* Allow images to wrap */
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+            padding: 10px; /* Add some padding */
+            border-radius: 5px;
+        }
+        .image-placeholder img {
+            max-width: 100%; /* Ensure images don't overflow container */
+            height: auto; /* Maintain aspect ratio */
+            margin: 5px; /* Add some margin between images */
+            /* max-height: 400px; /* Removed general max-height to give inline styles more control */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f5f5f5;
+        }
+        .ref-code {
+            font-family: monospace;
+            background-color: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+        .patent-ref {
+            color: #666;
+            font-style: italic;
+        }
+        .innovation-note {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #28a745;
+            margin: 10px 0;
+        }
+        .technical-note {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #007bff;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Drug Delivery Device Design References</h1>
+    
+    <div class="component-section">
+        <h2>1. Needle Protection Mechanism</h2>
+        <p>Reference Code: <span class="ref-code">NPM-001</span></p>
+        <p class="patent-ref">Patent Reference: FIG. 1 (External housing), FIG. 3 (Rotating sleeve) - illustrating key components of the needle safety and deployment system. <mcreference link="https://www.somatulinedepot.com/en-us/hcp/administration/dosing" index="1">1</mcreference></p>
+        <div class="image-placeholder">
+            <img src="photo/fig1.png" alt="FIG. 1: External housing of safety needle assembly" style="max-width: 48%; height: auto;">
+            <img src="photo/fig3.png" alt="FIG. 3: Rotating sleeve of safety needle assembly" style="max-width: 48%; height: auto;">
+        </div>
+        <div class="technical-note">
+            <strong>Technical Specifications:</strong>
+            <ul>
+                <li>90-degree angle insertion mechanism</li>
+                <li>Complete needle insertion requirement (needle should not be visible)</li>
+                <li>Deep subcutaneous injection capability</li>
+            </ul>
+        </div>
+        <div class="innovation-note">
+            <strong>Innovation Opportunity:</strong> Design an advanced needle protection system that ensures:
+            <ul>
+                <li>Precise 90-degree angle insertion</li>
+                <li>Automatic needle retraction after injection</li>
+                <li>Enhanced safety features to prevent needlestick injuries</li>
+            </ul>
+        </div>
+        <table>
+            <tr>
+                <th>Specification</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Safety Features</td>
+                <td>Advanced needle retraction mechanism with enhanced safety features</td>
+            </tr>
+            <tr>
+                <td>Material</td>
+                <td>Medical-grade materials optimized for patient comfort</td>
+            </tr>
+            <tr>
+                <td>Injection Angle</td>
+                <td>Fixed 90-degree angle mechanism with visual guidance</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="component-section">
+        <h2>2. Drug Reservoir System</h2>
+        <p>Reference Code: <span class="ref-code">DRS-001</span></p>
+        <p class="patent-ref">Patent Reference: FIG. 9 (Needle insertion stage), FIG. 12 (Syringe retraction stage) - showing the syringe and needle assembly in different operational states relevant to the reservoir's function.</p>
+        <div class="image-placeholder">
+            <img src="photo/fig9.png" alt="FIG. 9: Safety needle assembly during needle insertion stage" style="max-width: 48%; height: auto;">
+            <img src="photo/fig12.png" alt="FIG. 12: Safety needle assembly during first portion of syringe retraction stage" style="max-width: 48%; height: auto;">
+        </div>
+        <div class="innovation-note">
+            <strong>Innovation Opportunity:</strong> Develop an improved drug reservoir system incorporating state-of-the-art electronic features</div>
+        <table>
+            <tr>
+                <th>Specification</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Capacity</td>
+                <td>Optimized for sustained release formulation</td>
+            </tr>
+            <tr>
+                <td>Material Compatibility</td>
+                <td>Enhanced compatibility with lanreotide acetate formulation</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="component-section">
+        <h2>3. Activation Mechanism</h2>
+        <p>Reference Code: <span class="ref-code">ACT-001</span></p>
+        <p class="patent-ref">Patent Reference: FIG. 16 (Internal housing, 2nd embodiment), FIG. 18 (Activation fork, 2nd embodiment) - detailing components critical to the activation mechanism.</p>
+        <div class="image-placeholder">
+            <img src="photo/fig16.png" alt="FIG. 16: Internal housing of safety needle assembly (2nd embodiment)" style="max-width: 98%; height: auto;">
+            <img src="photo/fig18.png" alt="FIG. 18: Activation fork of safety needle assembly (2nd embodiment)" style="max-width: 48%; height: auto;">
+        </div>
+        <div class="innovation-note">
+            <strong>Innovation Opportunity:</strong> Integrate electronic autoinjector technology for improved activation control</div>
+        <table>
+            <tr>
+                <th>Specification</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Activation Type</td>
+                <td>Electronic-assisted activation system</td>
+            </tr>
+            <tr>
+                <td>Safety Lock</td>
+                <td>Advanced electronic safety mechanisms</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="component-section">
+        <h2>4. Dose Control System</h2>
+        <p>Reference Code: <span class="ref-code">DCS-001</span></p>
+        <p class="patent-ref">Patent Reference: FIG. 24 (End of injection stage, 2nd embodiment), FIG. 26 (Discard state, 2nd embodiment) - illustrating states relevant to dose completion and device disposal.</p>
+        <div class="image-placeholder">
+            <img src="photo/fig24.png" alt="FIG. 24: Safety needle assembly at end of injection stage (2nd embodiment)" style="max-width: 48%; height: auto;">
+            <img src="photo/fig26.png" alt="FIG. 26: Safety needle assembly in discard state (2nd embodiment)" style="max-width: 48%; height: auto;">
+        </div>
+        <div class="innovation-note">
+            <strong>Innovation Opportunity:</strong> Implement precise electronic dose control system for consistent delivery</div>
+        <table>
+            <tr>
+                <th>Specification</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Dose Accuracy</td>
+                <td>Electronically controlled precise dosing</td>
+            </tr>
+            <tr>
+                <td>Flow Control</td>
+                <td>Smart flow rate management system</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="component-section">
+        <h2>5. User Interface Components</h2>
+        <p>Reference Code: <span class="ref-code">UIC-001</span></p>
+        <p class="patent-ref">Patent Reference: FIG. 31 (External housing, 3rd embodiment), FIG. 33 (Locking sleeve, 3rd embodiment) - showcasing user-interactive components.</p>
+        <div class="image-placeholder">
+            <img src="photo/fig31.png" alt="FIG. 31: External housing of safety needle assembly (3rd embodiment)" style="max-width: 98%; height: auto;">
+            <img src="photo/fig33.png" alt="FIG. 33: Locking sleeve of safety needle assembly (3rd embodiment)" style="max-width: 48%; height: auto;">
+        </div>
+        <div class="innovation-note">
+            <strong>Innovation Opportunity:</strong> Design an intuitive interface that minimizes injection site reactions <mcreference link="https://www.somatulinedepot.com/en-us/hcp/administration/dosing" index="1">1</mcreference></div>
+        <table>
+            <tr>
+                <th>Specification</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Grip Design</td>
+                <td>Ergonomic design with electronic feedback</td>
+            </tr>
+            <tr>
+                <td>Visual Indicators</td>
+                <td>Digital display with injection progress monitoring</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <p><strong>Note:</strong> This document serves as a reference for design implementation. Upload relevant SVG images from the patent figures to the designated placeholders for complete documentation. The design incorporates innovations based on the fourth-generation electronic autoinjector technology.</p>
+    </footer>
+</body>
+</html>
